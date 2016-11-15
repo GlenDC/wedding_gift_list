@@ -1,0 +1,34 @@
+#mainpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 300px;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gift {
+    padding-bottom: 3px;
+}
+
+.gift:last-child {
+    padding-bottom: 0;
+}
+
+.gift-title {
+    font-weight: bold;
+}
+
+.gift-where {
+    opacity: 0.8;
+}
+
+#giftlist {
+    width: 100%;
+    border-bottom: .1em dashed #d3ccc1;
+    border-top: .1em dashed #d3ccc1;
+}

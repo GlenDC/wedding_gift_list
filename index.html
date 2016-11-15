@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="stylesheets/core.css" media="screen">
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
 
+    <script type="text/javascript" src="javascripts/main.js"></script>
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
@@ -17,10 +19,10 @@
         $('#main_content').headsmart()
       })
     </script>
-    <title>Lista de Regalos by GlenDC</title>
+    <title>Lista de Regalos</title>
   </head>
 
-  <body>
+  <body onload="initGiftList()">
     <div class="shell">
 
       <header>
@@ -50,18 +52,35 @@
 
 <p>In december is the wedding. todo...</p>
 
+<img id="mainpic" src="images/together.jpg"/>
+
 <h2>
 <a id="lista-de-regalos" class="anchor" href="#lista-de-regalos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lista de regalos</h2>
 
-<p>As our first baby is on the way we prefer gifts for the baby, rather than ourselves. todo...</p>
+<p>
+    As our first baby is on the way we prefer gifts for the baby,
+    rather than ourselves. todo...
+</p>
 
-<p>Por favor, elija un regalo disponible y háganos saber su elección por correo electrónico (<a href="mailto:contact@glendc.com">contact@glendc.com</a>) o por teléfono (<strong>+51 937 181 228</strong>);</p>
+<p>
+    Por favor, elija un regalo disponible y háganos saber su elección
+    por correo electrónico (<a href="mailto:contact@glendc.com">contact@glendc.com</a>)
+    o por teléfono (<strong>+51 937 181 228</strong>).
+</p>
 
-<ul>
-<li>A gift;</li>
-<li>
-<del>A gift already bought</del> (by John);</li>
-</ul>
+<div id="giftlist">
+    <em style="color: red;">Por favor habilite javascript, ya que esta funcionalidad lo requiere.</em>
+</div>
+
+<p>
+    These are just the gift options we think would be useful.
+    In case you have another gift idea, feel free to choose that custom one instead.
+</p>
+
+<p>
+    Gifts are optional, the most important thing for us, is for you to show up and
+    celebrate together with us this beautiful life event.
+</p>
 
 <hr>
 
