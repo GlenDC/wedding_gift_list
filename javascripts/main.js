@@ -38,7 +38,7 @@ function initGiftList() {
         if(item.donator != null) {
             content += "</del> (dado por " + item.donator + ")<del>";
         } else {
-            content += " (&#177; s/. " + item.price + ")";
+            content += " (&#177;&nbsp;s/.&nbsp;" + item.price + ")";
 
             if(item.desc != null) {
                 content += "<br>" + item.desc;
