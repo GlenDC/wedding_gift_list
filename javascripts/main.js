@@ -1,14 +1,14 @@
 function initGiftList() {
     var items = [
         {
-            sum: "Envoltura de Bebé (Gris)",
+            sum: "Envoltura de Bebé (Gris), para cargar al bebé",
             price: 210,
             where: [
                 {name: "amazon", url: "https://www.amazon.com/Boba-BW1-005-Gray-Baby-Wrap-Grey/dp/B005SP2LWW"},
             ],
         },
         {
-            sum: "Paquete de Baberos",
+            sum: "Paquete de Baberos de algodón",
             desc: "varias edades de 6 meses á mas",
             price: 50,
             where: [
@@ -16,11 +16,43 @@ function initGiftList() {
             ],
         },
         {
-            sum: "Cuna para Bebé",
+            sum: "Cuna para Bebé o Cuna portátil",
             price: 950,
             where: [
                 {name: "falabella", url: "http://www.falabella.com.pe/falabella-pe/product/14661786/Mini-Cuna-para-Bebe-4040180"},
             ],
+        },
+        {
+          sum: "Móvil de colores y alegre para colgar encima de la cuna",
+          price: 250,
+        },
+        {
+          sum: "Ropita de bebé: calcetines, bodies de algodón, gorritos y/o conjuntitos de algodón",
+          price: 40,
+        },
+        {
+          sum: "Para la cuna: Mantitas de algodón o de pura lana virgen o de hilo; o almohada y cojines para recién nacido; o un juego de sábanas para la cuna; o un juego de protector y colcha para cuna",
+          price: 80,
+        },
+        {
+          sum: "Paquetes de pañales y/o pañales de tela para 3kg-5kg",
+          price: 50 ,
+        },
+        {
+          sum: "Ropita para bebé: pijamas, zapatitos o patucos y guantes de algodón y/o lana, peleles, conjuntos para paseo",
+          price: 80,
+        },
+        {
+          sum: "Bolsa para llevar cambios, pañales, etc",
+          price: 60,
+        },
+        {
+          sum: "Intercomunicador de sonido",
+          price: 80,
+        },
+        {
+          sum: "Extractor de leche",
+          price: 80,
         },
     ];
 
@@ -55,7 +87,7 @@ function initGiftList() {
                     }
                     content += ", ";
                 }
-                content += "y otras lugares...</span>";
+                content += "y otros lugares...</span>";
             }
         }
 
